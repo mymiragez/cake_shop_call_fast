@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class ShowShopDetailUI extends StatefulWidget {
@@ -10,6 +12,6 @@ class ShowShopDetailUI extends StatefulWidget {
 class _ShowShopDetailUIState extends State<ShowShopDetailUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }

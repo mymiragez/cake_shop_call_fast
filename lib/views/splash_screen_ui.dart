@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class SplashScreenUI extends StatefulWidget {
@@ -10,6 +12,6 @@ class SplashScreenUI extends StatefulWidget {
 class _SplashScreenUIState extends State<SplashScreenUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
